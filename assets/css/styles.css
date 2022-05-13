@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-primary {
+    background-image: url("../images/fondo-vilo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
