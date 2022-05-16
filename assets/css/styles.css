@@ -172,7 +172,10 @@ input[type=checkbox] {
     margin-left: 10px;
 }
 .check img{
+    margin: 0 auto;
+    vertical-align: middle;
     color: rgb(4, 147, 183);
+ 
     font-size: 30px;
 }
 /* comentarios */
