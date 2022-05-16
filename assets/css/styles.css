@@ -66,123 +66,23 @@ fieldset{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* seccion 1 */
-.titSeccion1{
-    margin-bottom: 40px;
+.border-blue-custom{
+    border: 2px solid rgb(35, 134, 165);
+    border-radius: 10px;
 }
-@media (min-width: 1009px){
-    .parrafos{
-        line-height: 0.5;
-        margin-bottom: 5rem;
-    }
+.border-l-blue{
+    border-right: 2px solid rgb(35, 134, 165);
 }
-/* seccion 4 */
-.flex{
-    display: flex;
-}
-
-/* seccion formulario */
-.form{
-    width: 80%;
-    margin: 0 auto;
-    color: #fff;
-}
-
-.form label{
-    width: 75%;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    border: 2px solid rgb(4, 147, 183);
-    border-radius: 20px;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.f-2 textarea{
-    margin: 0 auto;
-    width: 100%;
-}
-.form span{
-    font-size: 1.3rem;
-    color: rgb(4, 147, 183);
-    margin: 0 15px 0 15px;
-    padding: 0;
-}
-.form input{
-    border: 2px solid rgb(4, 147, 183);
-    border-radius: 8px;
-    padding: 0.1rem;
-}
-.textt textarea{
+.outline-none{
     border: none;
+    outline: none;
 }
-.f-8{
-    margin-bottom: 100px;
+.letter-space{
+    letter-spacing: 10px;
 }
-.f-8 legend{
-    width: 50%;
-}
-#coment-l{   
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-}
-@media (min-width: 768px) {
-    .form label{
-        width: 78%;
-        padding: 0.4rem 2rem 0.4rem 2rem;
-        margin-bottom: 30px;
-    }
-    .f-2 label{
-        width: 75%;
-    }
-    .f-2 textarea{
-        margin: 0;
-        width: 52%;
-    }
-    .f-4 label{
-        width: 40%;  
-    }
-    .f-6 label{
-        width: 85%;  
-    }
-    #campo-text{
-        margin-right: 10px;
-        width: 35%;
-        vertical-align: top;
-    }
-    #coment-l{   
-        letter-spacing: 15px;
-        font-size: 1.5rem;
-        font-family: 'Poppins', sans-serif;
-        color: #fff;
-    }
-}
-/* editando el checkbox */
-input[type=checkbox] {
-    display: none;
-}
-.check{
-    background: transparent;
-    border: 2px solid  rgb(4, 147, 183);
-    border-radius: 15px;
-    display: inline-block;
-    height: 45px;
-    width: 45px;
-    vertical-align:middle;
-    margin-left: 10px;
-}
-.check img{
-    margin-bottom: 20px;
-    vertical-align: middle;
-    color: rgb(4, 147, 183);
-    font-size: 30px;
-}
-/* comentarios */
-.img-comentarios img{
-     height: 90px;
-}
-@media (min-width: 768px) {
-    .img-comentarios img{
-        margin: -30px auto 10px auto;
-    }
+
+.cuadrado-custom {
+    width: 44px;
+    height: 44px;
+    
 }
