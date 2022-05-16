@@ -45,11 +45,9 @@ fieldset{
 /* utilidades */
 .container{
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
-.container .item-2{
-    margin-right: 0;
-}
+
 .text-p{
     color: white; 
     text-align:center;
@@ -63,7 +61,7 @@ fieldset{
 }
 
 .background-primary {
-    background-image: url("../images/fondo-vilo.jpg");
+    background-image: url("../images/fondo-vilo2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +89,7 @@ fieldset{
 }
 
 .form label{
-    width: 80%;
+    width: 75%;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     border: 2px solid rgb(4, 147, 183);
@@ -117,7 +115,6 @@ fieldset{
 }
 .textt textarea{
     border: none;
-    width: 100%;
 }
 .f-8{
     margin-bottom: 100px;
@@ -136,7 +133,7 @@ fieldset{
         margin-bottom: 30px;
     }
     .f-2 label{
-        width: 88%;
+        width: 75%;
     }
     .f-2 textarea{
         margin: 0;
@@ -181,7 +178,7 @@ input[type=checkbox] {
 }
 /* comentarios */
 .img-comentarios img{
-    display: block; margin: 50px auto 0 auto; height: 90px;
+     height: 90px;
 }
 @media (min-width: 768px) {
     .img-comentarios img{
