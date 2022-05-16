@@ -171,8 +171,7 @@ input[type=checkbox] {
     vertical-align:middle;
     margin-left: 10px;
 }
-.check:before{
-    content: url(/assets/images/ELEMENTO\ 6.svg);
+.check img{
     color: rgb(4, 147, 183);
     font-size: 30px;
 }
