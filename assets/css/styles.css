@@ -86,3 +86,30 @@ fieldset{
     height: 44px;
     
 }
+
+.checkActive{
+    margin-bottom: 20px;
+    vertical-align: middle;
+    color: rgb(4, 147, 183);
+    font-size: 30px;
+    opacity:100%;
+    }
+
+.checkInactive{
+    opacity: 0;
+}
+
+label{
+    background: transparent;
+    border: 2px solid  rgb(4, 147, 183);
+    border-radius: 15px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    vertical-align:middle;
+    margin-left: 10px;
+}
+
+input[type=checkbox] {
+    opacity: 0;
+}
