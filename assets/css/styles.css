@@ -16,6 +16,7 @@ p{
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     background-image: url(../landing-form-vilo-master/assets/images/ELEMENTO\ 2.svg);
 }
 textarea{
